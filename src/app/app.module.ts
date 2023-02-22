@@ -1,12 +1,22 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { ProjetosComponent } from './projetos/projetos.component';
+import { ContatoComponent } from './contato/contato.component';
+import { AppRoutingModule } from './app-routing.module';
+import { NavbarComponent } from './navbar/navbar.component';
+import { SobreMimComponent } from './sobre-mim/sobre-mim.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomePageComponent,
+    ProjetosComponent,
+    ContatoComponent,
+    NavbarComponent,
+    SobreMimComponent
   ],
   imports: [
     BrowserModule,
