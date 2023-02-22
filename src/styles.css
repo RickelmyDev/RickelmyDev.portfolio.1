@@ -1,9 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
 body{
-    background: linear-gradient(63.13deg, black 51.04%,  rgb(0, 255, 85) 51.05%);
-    height: 100vh;
+  height: 100vh;
+  background: linear-gradient(63.13deg, black 51.04%,  rgb(0, 255, 85) 51.05%);
 }
-
 /*barra de navegação*/
 nav {
     background: rgba(196, 196, 196, 0.11);
